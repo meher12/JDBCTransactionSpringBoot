@@ -1,0 +1,14 @@
+CREATE TABLE `EmployeeSalary` (
+  `Id` bigint NOT NULL,
+  `Full_Name` varchar(128) NOT NULL,
+  `Salary` double NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+
+Insert into EmployeeSalary(ID, Full_Name, Salary) values (1, 'Tom', 1000);
+Insert into EmployeeSalary(ID, Full_Name, Salary) values (2, 'Jerry', 2000);
+Insert into EmployeeSalary(ID, Full_Name, Salary) values (3, 'Donald', 3000);
+
